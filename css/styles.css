@@ -286,14 +286,14 @@ margin-bottom: 16px;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-top: 4px;
   margin-bottom: 8px;
   
 }
 .form-lable {
   font-size: 12px;
-line-height: 1.16;
+line-height: 1.166;
 letter-spacing: 0.04em;
-margin-bottom: 4px;
 }
 .policy-lable{
   font-size: 12px;
@@ -660,7 +660,7 @@ line-height: 2;
 color: var(--hero-color);
 }
 .footer-form-input:focus {
-outline: none;
+outline: 1px solid var(--hero-color);
 }
 .footer-submit-btn {
   font-weight: 500;
